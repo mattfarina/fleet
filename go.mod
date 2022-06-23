@@ -38,7 +38,7 @@ require (
 	github.com/cheggaaa/pb v1.0.27
 	github.com/evanphx/json-patch v4.9.0+incompatible
 	github.com/go-git/go-git/v5 v5.2.0
-	github.com/go-openapi/spec v0.19.5
+	github.com/go-openapi/spec v0.20.6
 	github.com/google/go-containerregistry v0.1.1
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/hashicorp/go-getter v1.5.11
