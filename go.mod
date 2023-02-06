@@ -36,7 +36,7 @@ require (
 	github.com/argoproj/argo-cd v1.8.7
 	github.com/argoproj/gitops-engine v0.3.3
 	github.com/cheggaaa/pb v1.0.27
-	github.com/evanphx/json-patch v4.9.0+incompatible
+	github.com/evanphx/json-patch v4.11.0+incompatible
 	github.com/go-git/go-git/v5 v5.2.0
 	github.com/go-openapi/spec v0.19.5
 	github.com/google/go-containerregistry v0.1.1
@@ -52,10 +52,10 @@ require (
 	github.com/rancher/wrangler v0.8.8
 	github.com/rancher/wrangler-cli v0.0.0-20211112052728-f172e9bf59af
 	github.com/sirupsen/logrus v1.8.1
-	github.com/spf13/cobra v1.1.3
-	github.com/stretchr/testify v1.7.0
+	github.com/spf13/cobra v1.4.0
+	github.com/stretchr/testify v1.8.1
 	go.mozilla.org/sops/v3 v3.6.1
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c
+	golang.org/x/sync v0.1.0
 	helm.sh/helm/v3 v3.5.1
 	k8s.io/api v0.21.3
 	k8s.io/apimachinery v0.21.3
@@ -64,9 +64,9 @@ require (
 	k8s.io/kubernetes v1.21.3 // indirect
 	rsc.io/letsencrypt v0.0.3 // indirect
 	sigs.k8s.io/cli-utils v0.23.1
-	sigs.k8s.io/kustomize/api v0.8.8
-	sigs.k8s.io/kustomize/kyaml v0.10.17
-	sigs.k8s.io/yaml v1.2.0
+	sigs.k8s.io/kustomize/api v0.13.1
+	sigs.k8s.io/kustomize/kyaml v0.14.0
+	sigs.k8s.io/yaml v1.3.0
 )
 
 replace github.com/json-iterator/go v1.1.10 => github.com/json-iterator/go v1.1.12
